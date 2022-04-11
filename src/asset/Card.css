@@ -1,0 +1,115 @@
+.CardFlex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.CardBodyFlex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 70vh;
+    justify-content: space-around;
+    font-family: "emoji";
+}
+.CardBodyFlex {
+    background: linear-gradient(rgb(166 251 251), #30609fc2);
+
+}
+.imgup{
+    width: 20%;
+}
+.upCardBody{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+.downCardBody{
+    width: 100%;
+}
+
+.cityImg{
+    display: flex;
+    padding: 0.4vw;
+    width: 4vw;
+}
+.cityImgCard{
+    display: flex;
+    padding: 0.4vw;
+    width: 4vw;
+}
+.CityFlex{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    height: 70%;
+    box-shadow: #a9a6a661 1px 1px 3px;
+    font-family: "emoji";
+    font-size: 1.5vw;
+    justify-content:space-between ;
+}
+.divTextCity{
+    width: 70%;
+}
+.FaveritesFlex{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    height: 50%;
+    box-shadow: #a9a6a661 1px 1px 3px;
+    justify-content: space-evenly;
+}
+.CardText{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    font-size: 3vw;
+}
+.DaysFlex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.dayFlex{
+    display: flex;
+    flex-direction: column;
+
+}
+.daysStyle{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    font-size: 2vw;
+    background: linear-gradient(#30609fc2,rgb(0 173 173));
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border-radius: 1vw;
+    color: white;
+    box-shadow: #a9a6a661 4px 2px 9px;
+    height: 25vh;
+    width: 10vw;
+}
+
+.degrees{
+    content: "\00B0";
+}
+.minimax{
+    display: flex;
+    justify-content: center;
+}
+.FaveritesFlexDiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
