@@ -28,7 +28,7 @@ export default function Search({onclick, keyFetch}) {
   }
 
   async function getCityCode(city) {
-    const baseUrl = 'http://dataservice.accuweather.com/locations/v1/cities/autocomplete';
+    const baseUrl = 'https://dataservice.accuweather.com/locations/v1/cities/autocomplete';
     const qwery = `?apikey=${keyFetch}&q=${city}`;
     fetch(baseUrl + qwery)
       .then(res => res.json())

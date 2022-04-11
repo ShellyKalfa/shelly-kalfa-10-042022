@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 
 
-const baseUrl = 'http://dataservice.accuweather.com/';
+const baseUrl = 'https://dataservice.accuweather.com/';
 export default function useFetch(haseQwery = "") {
   const [data, setData] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(true);
