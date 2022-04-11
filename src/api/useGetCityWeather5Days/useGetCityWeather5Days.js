@@ -5,13 +5,12 @@ export  default function useGetCityWeather5Days(cityInfo="",key){
   const [list,setList]=useState(null)
   const [looding,setLoding]=useState(false)
   const [error,setError]=useState(null)
-  const baseUrl = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/';
+  const baseUrl = 'https://dataservice.accuweather.com/forecasts/v1/daily/5day/';
   const qwery = `${data}?apikey=${key}&metric=true`;
   console.log(qwery,"qwery");
   console.log(data,"data");
 
   useEffect(()=>{
-    console.log("jkjk")
     let isMounted=true;
     setLoding(true);
     console.log( "useGetCiteCode 1:",data)

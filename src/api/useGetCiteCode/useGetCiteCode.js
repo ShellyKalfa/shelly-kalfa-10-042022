@@ -5,7 +5,7 @@ export  default function useGetCiteCode(cityInfo=""){
   const [code,setCode]=useState(null)
   const [looding,setLoding]=useState(false)
   const [error,setError]=useState(null)
-  const baseUrl='http://dataservice.accuweather.com/locations/v1/cities/search';
+  const baseUrl='https://dataservice.accuweather.com/locations/v1/cities/search';
   const qwery=`?apikey=${key}&q=${cityInfo}`;
 
   useEffect(()=>{

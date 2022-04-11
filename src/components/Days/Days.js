@@ -28,9 +28,6 @@ export default function Days({weatherForFiveDays = []}) {
             </div>
             <div>{today + index + 1 < days.length ? days[today + index + 1] : days[today + index - 6]}</div>
           </div>
-          <div>
-            {day.Day.Icon}
-          </div>
           <div className="dayFlex">
             <div className="minimax">
               <div>{day.Temperature.Maximum.Value}&#176;/</div>

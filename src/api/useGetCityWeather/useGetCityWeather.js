@@ -5,7 +5,7 @@ export  default function useGetCityWeather(codeCity,key){
   const [weather,setWeather]=useState("")
   const [looding, setLoding] = useState(false)
   const [error, setError] = useState(null)
-  const baseUrl='http://dataservice.accuweather.com/currentconditions/v1/';
+  const baseUrl='https://dataservice.accuweather.com/currentconditions/v1/';
   const qwery=`${code}?apikey=${key}&getPhotos=true`;
   useEffect(()=>{
     setLoding(true)

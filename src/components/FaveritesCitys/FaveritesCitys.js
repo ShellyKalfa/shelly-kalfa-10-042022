@@ -6,7 +6,7 @@ export default function FaveritesCitys({cityInfo = "", openFaveritesCitys, keyFe
   const [weatherReturn, setWeatherReturn] = useState("")
   const [looding, setLoding] = useState(false)
   const [error, setError] = useState(null)
-  const baseUrl = 'http://dataservice.accuweather.com/currentconditions/v1/';
+  const baseUrl = 'https://dataservice.accuweather.com/currentconditions/v1/';
   const qwery = `${cityInfo.code}?apikey=${keyFetch}&getPhotos=true`;
 
   useEffect(() => {

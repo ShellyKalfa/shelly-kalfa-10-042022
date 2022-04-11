@@ -19,7 +19,7 @@ export default function Page({data = {}}) {
   const [isInFaverites, setIsInFaverites] = useState(true);
   const [looding, setLoding] = useState(false)
   const [error, setError] = useState(null)
-  const baseUrl = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/';
+  const baseUrl = 'https://dataservice.accuweather.com/forecasts/v1/daily/5day/';
   const qwery = `${city}?apikey=${key}&metric=true`;
 
   function onclickf(cityInfo) {
