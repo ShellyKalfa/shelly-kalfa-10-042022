@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shelly-kalfa-10-042022/static/css/main.d42cdcff.css",
-    "main.js": "/shelly-kalfa-10-042022/static/js/main.f7cfd1cb.js",
+    "main.js": "/shelly-kalfa-10-042022/static/js/main.6afe1738.js",
     "static/js/787.13d76ca7.chunk.js": "/shelly-kalfa-10-042022/static/js/787.13d76ca7.chunk.js",
     "index.html": "/shelly-kalfa-10-042022/index.html",
     "main.d42cdcff.css.map": "/shelly-kalfa-10-042022/static/css/main.d42cdcff.css.map",
-    "main.f7cfd1cb.js.map": "/shelly-kalfa-10-042022/static/js/main.f7cfd1cb.js.map",
+    "main.6afe1738.js.map": "/shelly-kalfa-10-042022/static/js/main.6afe1738.js.map",
     "787.13d76ca7.chunk.js.map": "/shelly-kalfa-10-042022/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d42cdcff.css",
-    "static/js/main.f7cfd1cb.js"
+    "static/js/main.6afe1738.js"
   ]
 }
