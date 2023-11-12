@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from "react";
 
-const key="78g8od8Gjh1zGzGM98eun5gzSTxG4en6";
+const key="HYllqZmwHbFgRcToRj7QiNqTiFr2keMr";
 export  default function useGetCiteCode(cityInfo=""){
   const [code,setCode]=useState(null)
   const [looding,setLoding]=useState(false)
