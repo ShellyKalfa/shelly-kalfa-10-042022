@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 
-const key="JHr4HuG4XfQWtScN4muUUWJgPvB17U0b";
+const key="HYllqZmwHbFgRcToRj7QiNqTiFr2keMr";
 
 
 export  default function useGetCityCode(city){
