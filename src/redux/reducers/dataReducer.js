@@ -5,7 +5,7 @@ const data= {
     nameCity:"Tel Aviv",
     cityCode:215854
   },
-  key:"Zb9ODXB2JZdVT9KtPsMY0tBP31IblobH"
+  key:"HYllqZmwHbFgRcToRj7QiNqTiFr2keMr"
 }
 
 export default function reducer(state = data, action) {
